@@ -1,0 +1,500 @@
+@media screen and (min-width: 1920px) {
+  body {
+    width: 100%;
+    max-width: 1920px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px) {
+  :root {
+    font-size: 14px;
+  }
+  body {
+    width: 100%;
+    max-width: 1440px;
+  }
+  .nav {
+    margin-right: 8%;
+  }
+  .article {
+    margin: 120px 20px;
+  }
+  .article__img img {
+    width: 100%;
+  }
+  .show {
+    margin-left: 25px;
+    margin-top: 130px;
+  }
+  .partners__logo img {
+    width: 80%;
+  }
+  .comment__2 {
+    width: 70%;
+  }
+  .footer,
+  .footer__end {
+    width: 100%;
+  }
+  .footer__blocks {
+    margin: 0 120px 0 120px;
+  }
+  .cards,
+  .line__1 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .card {
+    height: 275px;
+    width: 210px;
+    background-color: #191b1c;
+    background-position: center;
+  }
+  .card__img {
+    height: 214px;
+    width: 165px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  :root {
+    font-size: 12px;
+  }
+  body {
+    width: 100%;
+    max-width: 1024px;
+  }
+  .top__line,
+  .second__line {
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  .nav {
+    margin-right: 6%;
+  }
+
+  .cards,
+  .line__1 {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .main {
+    height: 600px;
+  }
+  .logo {
+    width: 220px;
+    height: 220px;
+    border: 4px solid white;
+  }
+  .new__2021 {
+    margin-top: 50px;
+  }
+
+  .card {
+    height: 185px;
+    width: 140px;
+    background-color: #191b1c;
+    background-position: center;
+  }
+  .card__img {
+    height: 130px;
+    width: 95px;
+    padding: 20px;
+  }
+  .coll__2018 {
+    padding-top: 30px;
+  }
+  .comment__2 {
+    width: 80%;
+  }
+  .collection__2018 {
+    height: 400px;
+  }
+  .col__2018img img {
+    width: 100%;
+    height: 400px;
+  }
+  .season__2018 {
+    width: 55%;
+    height: 400px;
+  }
+  .show {
+    margin-left: 20px;
+    margin-top: 85px;
+    width: 100px;
+  }
+  .new__goods {
+    height: 800px;
+  }
+  .article__img {
+    width: 55%;
+  }
+  .article__img img {
+    width: 100%;
+  }
+  .block__article {
+    height: 300px;
+  }
+  .article {
+    margin: 80px 20px;
+    width: 40%;
+  }
+  .but__read {
+    height: 20px;
+  }
+  .partners {
+    height: 400px;
+  }
+  .partners__logo img {
+    width: 90%;
+  }
+  .footer,
+  .footer__end {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .footer__blocks {
+    margin: 0 100px;
+  }
+  .category {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  :root {
+    font-size: 10px;
+  }
+  body {
+    width: 100%;
+    max-width: 768px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin-right: 10px;
+  }
+  .nav li {
+    padding: 15px;
+  }
+
+  .main {
+    height: 400px;
+  }
+
+  .logo {
+    width: 180px;
+    height: 180px;
+  }
+  .nav {
+    flex-wrap: wrap;
+  }
+  .season {
+    flex-wrap: wrap-reverse;
+  }
+  .new__season {
+    height: 500px;
+    width: 100%;
+  }
+  .new__colection {
+    height: 500px;
+    width: 100%;
+  }
+  .new__col {
+    padding-top: 250px;
+  }
+  .cards {
+    width: 88%;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    height: 225px;
+    width: 160px;
+  }
+  .card__img {
+    height: 164px;
+    width: 115px;
+  }
+  .season__2018 {
+    height: 500px;
+    width: 100%;
+  }
+  .collection__2018 {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    margin-top: 390px;
+  }
+  .comment__2 {
+    width: 80%;
+  }
+  .col__2018img {
+    width: 100%;
+    height: 490px;
+  }
+  .col__2018img img {
+    width: 100%;
+  }
+  .line__1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30px;
+  }
+  .show {
+    margin-left: 10px;
+    margin-top: 115px;
+    width: 130px;
+  }
+  .new__goods {
+    height: 750px;
+  }
+  .article__img {
+    width: 100%;
+  }
+  .article__img img {
+    width: 100%;
+  }
+  .article {
+    margin: 0 auto;
+    width: 500px;
+  }
+  .partners__logo {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 50px;
+  }
+  .partners__logo div {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+  }
+  .partners__logo div > img {
+    width: 50%;
+    margin: 15px;
+  }
+  .block__article {
+    flex-direction: column;
+  }
+
+  .footer {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .footer__blocks {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  :root {
+    font-size: 8px;
+  }
+  body {
+    width: 100%;
+    max-width: 375px;
+  }
+
+  .top__line {
+    display: none;
+  }
+  .second__line {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 180px;
+    padding: 10px 0;
+  }
+  .second__line-left {
+    padding: 10px;
+  }
+
+  .burger {
+    display: flex;
+  }
+
+  .nav {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+
+    height: auto;
+    width: 355px;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    overflow-y: auto;
+    padding: 10px 10px;
+    background-color: black;
+    animation: burgerAnimation 0.4s;
+  }
+
+  .nav ul {
+    flex-direction: column;
+  }
+  .nav li {
+    padding: 30px;
+  }
+
+  @keyframes burgerAnimation {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .main {
+    height: 600px;
+  }
+  .main__logo {
+    padding-top: 40%;
+  }
+  .logo {
+    width: 150px;
+    height: 150px;
+  }
+  .logo__line {
+    width: 80px;
+  }
+  .comment {
+    width: 200px;
+    margin-top: 10%;
+  }
+  .season {
+    display: flex;
+    flex-direction: column;
+  }
+  .new__season {
+    width: 100%;
+    height: auto;
+  }
+  .card {
+    height: 245px;
+    width: 200px;
+    margin: 0 auto 80px auto;
+  }
+  .card__img {
+    height: 204px;
+    width: 165px;
+  }
+  .new__colection {
+    width: 100%;
+    height: 600px;
+  }
+  .new__col {
+    padding-top: 350px;
+  }
+  .collection__2018 {
+    flex-direction: column-reverse;
+  }
+  .season__2018 {
+    width: 100%;
+
+    height: 700px;
+  }
+  .coll__2018 {
+    padding-top: 60px;
+  }
+  .comment__2 {
+    width: 150px;
+  }
+  .col__2018img {
+    width: 100%;
+    height: 700px;
+  }
+  .col__2018img img {
+    width: 100%;
+    height: 300px;
+  }
+  .new__goods {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .new__goods-text {
+    padding-top: 20%;
+  }
+  .line__1 {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+  .show {
+    margin-left: 35px;
+    margin-top: 125px;
+    width: 130px;
+  }
+  .article {
+    width: 90%;
+    margin: 10px 10px 0 10px;
+  }
+  .article__img {
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+  }
+  .article__img img {
+    width: 100%;
+  }
+  .block__article {
+    width: 90%;
+    margin: 10px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .but__read {
+    width: 70px;
+    height: 15px;
+  }
+  .but__tag {
+    width: 120px;
+  }
+  .partners {
+    height: auto;
+    width: 100%;
+  }
+  .partners__logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  .partners__logo div > img {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 50%;
+  }
+  .category {
+    margin-top: 20px;
+  }
+
+  .block {
+    width: 70%;
+    margin: 10px auto;
+  }
+  .footer {
+    height: auto;
+  }
+  .sing__up {
+    padding-top: 15px;
+  }
+  .block__info {
+    margin-top: 20px;
+  }
+
+  .cards,
+  .footer__blocks {
+    flex-direction: column;
+    margin: 0;
+  }
+}

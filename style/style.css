@@ -1,0 +1,471 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+:root {
+  --font-family: "PT Sans", sans-serif;
+  --second-family: "Playfair Display", sans-serif;
+  --third-family: "Post No Bills Jaffna", sans-serif;
+  --gray: #969696;
+  --white: #fff;
+  --light-gray: #d0d0d0;
+  --black: #000000;
+  --font-size: 20px;
+}
+
+body {
+  width: 1920px;
+  margin: 0 auto;
+}
+.top__line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--black);
+  height: 44px;
+  color: var(--gray);
+  font-family: var(--font-family);
+  font-size: 0.75rem;
+}
+.top__line-left {
+  display: flex;
+  align-items: center;
+  margin-left: 10%;
+}
+.call__phone {
+  width: 16px;
+  height: 16px;
+  margin: 20px;
+}
+.top__line-info {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.top__line-info li {
+  padding: 0 10px;
+}
+.top__line-right {
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+.second__line {
+  background-color: #0f0f0f;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.second__line-left {
+  color: var(--white);
+  font-family: var(--third-family);
+  font-size: 2.2rem;
+  padding: 11%;
+}
+a {
+  text-decoration: none;
+  color: var(--gray);
+  font-family: var(--font-family);
+  font-size: 0.87rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 10%;
+}
+.nav li {
+  padding: 31px;
+}
+.nav li:hover {
+  background-color: #1f1f1f;
+  color: var(--white);
+}
+.main {
+  background-image: url(../Img/about-screen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 810px;
+}
+
+.main__logo {
+  padding-top: 7%;
+}
+
+.logo {
+  width: 320px;
+  height: 320px;
+  border: 4px solid white;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.logo__porten {
+  font-family: var(--third-family);
+  font-size: 4rem;
+  color: var(--white);
+  margin-top: 30%;
+}
+.logo__line {
+  width: 179px;
+  border-bottom: 2px solid white;
+  margin: 10px auto;
+}
+.logo__city {
+  font-family: var(--font-family);
+  font-size: 1.375rem;
+  color: var(--white);
+}
+.comment {
+  width: 730px;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 5%;
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: block;
+  text-align: center;
+}
+.season {
+  display: flex;
+  justify-content: center;
+}
+.new__season {
+  background-color: var(--black);
+  height: 730px;
+  width: 55%;
+}
+.new__2021 {
+  font-family: var(--second-family);
+  font-size: 2.25rem;
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+.line__2 {
+  width: 120px;
+  border-bottom: 2px solid white;
+  margin: 0 auto;
+  padding-top: 4%;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.card {
+  height: 325px;
+  width: 260px;
+  background-color: #191b1c;
+  background-position: center;
+}
+.card__img {
+  height: 264px;
+  width: 215px;
+  padding: 20px;
+}
+.card__name {
+  font-family: var(--second-family);
+  color: var(--white);
+  font-size: 1.125rem;
+  padding-top: 25px;
+}
+.card__price {
+  font-family: var(--second-family);
+  color: var(--white);
+}
+.new__colection {
+  background-image: url(../Img/new_collection.png);
+  background-repeat: no-repeat;
+  height: 730px;
+  width: 45%;
+}
+.new__col {
+  font-family: var(--second-family);
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 460px;
+}
+.catalog {
+  font-family: var(--font-family);
+  font-size: 1.125rem;
+  color: var(--white);
+  border: 1px solid white;
+  width: 138px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+.collection__2018 {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+.col__2018img {
+  width: 48%;
+}
+
+.coll__2018 {
+  font-family: var(--second-family);
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 120px;
+}
+.season__2018 {
+  background-color: var(--black);
+  height: 600px;
+  width: 52%;
+}
+.see__coll {
+  font-family: var(--font-family);
+  font-size: 1.125rem;
+  color: var(--white);
+  border: 1px solid white;
+  width: 208px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+.comment__2 {
+  width: 730px;
+  margin: 0 auto;
+  align-items: center;
+  padding-top: 5%;
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: 0.875rem;
+  display: block;
+  text-align: center;
+}
+.new__goods {
+  background-color: var(--black);
+  height: 1289px;
+}
+.new__goods-text {
+  font-family: var(--second-family);
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 6%;
+}
+.line__1 {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 40px;
+  padding-top: 6%;
+}
+.show__all {
+  opacity: 0.2;
+  z-index: 0;
+}
+.show {
+  font-family: var(--second-family);
+  font-size: 1.125rem;
+  color: var(--white);
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-around;
+  width: 160px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 50px;
+  margin-top: 145px;
+}
+.articles {
+  background-color: #0f0f0f;
+}
+.block__article {
+  display: flex;
+  justify-content: space-around;
+}
+.article__img {
+  margin-top: 50px;
+  width: 989px;
+  height: 437px;
+}
+.title {
+  font-family: var(--font-family);
+  font-size: 1.125rem;
+  color: var(--white);
+}
+.article {
+  margin: 120px;
+  width: 40%;
+}
+.article__info {
+  font-family: var(--font-family);
+  font-size: 0.875rem;
+  color: var(--white);
+  padding-top: 30px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+.but__read {
+  font-family: var(--font-family);
+  font-size: 1.125rem;
+  color: var(--white);
+  border: 1px solid white;
+  padding: 15px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+}
+.but__tag {
+  font-family: var(--font-family);
+  font-size: 1.25rem;
+  color: var(--white);
+  padding: 15px;
+  margin-top: 40px;
+}
+.partners {
+  background-color: #0f0f0f;
+  height: 541px;
+}
+.partners__logo {
+  display: flex;
+  justify-content: space-around;
+  margin: 70px 200px 0 200px;
+}
+
+.footer {
+  background-image: url(../Img/footer\ back.png);
+  width: 1920px;
+  height: 450px;
+}
+.footer__blocks {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 300px 0 300px;
+}
+.block {
+  width: 350px;
+}
+.category {
+  font-family: var(--second-family);
+  font-size: 1.5rem;
+  color: var(--white);
+  margin-top: 80px;
+}
+.block__info {
+  font-family: var(--font-family);
+  font-size: 0.875rem;
+  color: var(--white);
+  margin-top: 40px;
+}
+.border {
+  background-color: #0f0f0f;
+  padding: 15px;
+  margin: 5px;
+}
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+}
+.email {
+  display: flex;
+}
+.input {
+  color: #ffffff;
+  opacity: 40%;
+  padding: 10px;
+  margin-top: 30px;
+}
+.sing__up {
+  background-color: var(--black);
+  font-family: var(--font-family);
+  color: var(--white);
+  padding: 10px;
+  margin-top: 30px;
+}
+
+.footer__end {
+  background-color: #0f0f0f;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.last__line {
+  font-family: var(--font-family);
+  font-size: 0.75rem;
+  color: var(--light-gray);
+}
+
+.open {
+  display: flex !important;
+}
+
+.burger {
+  display: none;
+  position: relative;
+  z-index: 50;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 18px;
+}
+
+.burger span {
+  height: 2px;
+  width: 80%;
+  transform: scale(1);
+  background-color: #faf6f2;
+}
+
+.burger::before,
+.burger::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background-color: #faf6f2;
+  transition: all 0.3s ease 0s;
+}
+
+.burger::before {
+  top: 0;
+}
+
+.burger::after {
+  bottom: 0;
+}
+
+/* Добавляем класс active для анимации иконки бургера */
+.burger.active span {
+  transform: scale(0);
+}
+
+.burger.active::before {
+  top: 50%;
+  transform: rotate(-45deg) translate(0, -50%);
+}
+
+.burger.active::after {
+  bottom: 50%;
+  transform: rotate(45deg) translate(0, 50%);
+}
